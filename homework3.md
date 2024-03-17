@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 
@@ -27,7 +27,4 @@
 <p style="text-align:right;">평소에는 발톱이 닳지 않게 넣고 있다. 발가락 수, 갈고리발톱의 생김새 등은 다른 고양이류와 동일하다.</p>
 
 
- 
 
-</body>
-</html>
