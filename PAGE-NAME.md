@@ -1,7 +1,6 @@
 
  <head>
   <meta charset="UTF-8">
-  <title>homework1</title>
  </head>
  
  <body>
