@@ -35,7 +35,7 @@ h1 {
     	<p>파란색도 긍정적인 특성과는 반대로 부정적인 특성도 있어요.</p>
     </div>    
 
-    <img src="blue.jpg" alt="Girl in a jacket" style="width:500px;height:350px;top:3000px;">    
+    <img src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMTNfMzYg/MDAxNTE4NTAwMTE0NDUz.zz2jtPBbc1Kst1Qa0AtcY4ASNA0jUpXYAjYmnZ5DFIIg.GKbTRwBnEgMWqlyrAWFfLcWY_PLxOjh_hzJfOrQGdGAg.JPEG.salletherapy/salle20180213_2.jpg?type=w800" alt="Girl in a jacket" style="width:500px;height:350px;top:3000px;">    
 <p>파랑(blue) 또는 청색(靑色)은 470nm가량의 파장을 갖는 색이며, 빛의 굴절률이 가장 큰 색이다. 가산 혼합에서는 빨강, 녹색과 함께 빛의 삼원색 중 하나이다. </p>
 <p>가산혼합으로 색상을 표기하는 웹 색상에서 파란색은 #0000FF으로 표시되며, 보색은 노랑이다. </p>
 <p>감산 혼합에서는 색의 삼원색 중 마젠타(Magenta)와 시안(Cyan)을 같은 비율로 혼합했을 때 나타나는 색이다. </p>
