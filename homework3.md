@@ -1,45 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>kimminchel</title>
-<meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="kimminchel" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://kimminchel.github.io/homework3.html" />
-<meta property="og:url" content="https://kimminchel.github.io/homework3.html" />
-<meta property="og:site_name" content="kimminchel" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="kimminchel" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"kimminchel","url":"https://kimminchel.github.io/homework3.html"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=9c87a201186fe1e3f649b2c418a5707626e81f66">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="https://kimminchel.github.io/">kimminchel</a></h1>
-      
-
       
 <html>
 <head>
@@ -66,12 +24,9 @@
 <p style="text-align:right;">평소에는 발톱이 닳지 않게 넣고 있다. 발가락 수, 갈고리발톱의 생김새 등은 다른 고양이류와 동일하다.</p>  
 <p style="text-align:right;">귓바퀴는 둥글고 크며 뒷면에 검은 반점이 있다. </p>  
        
-</body></html>
+</body>
 
 
       
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
+
 </html>
