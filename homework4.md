@@ -15,7 +15,17 @@
 h1 {
   color: rgb(38, 0, 255);
   font-family: courier;
-  font-size: 300%;
+  font-size: 450%;
+}
+h5 {
+  color: rgb(38, 0, 255);
+  font-family: courier;
+  font-size: 260%;
+}
+h6 {
+  color: rgb(38, 0, 255);
+  font-family: courier;
+  font-size: 260%;
 }
 .yes-text {
             position: relative;
@@ -23,6 +33,19 @@ h1 {
             top: -300px;
             margin-top: -170px; /* 제목과 .moved-text 사이의 간격을 조절합니다. */
         }        
+        .no-text {
+            position: relative;
+            left: -200px;
+            top: -300px;
+            margin-top: -170px; /* 제목과 .moved-text 사이의 간격을 조절합니다. */
+        }   
+        .x-text {
+            position: relative;
+            left: -200px;
+            top: -300px;
+            margin-top: -170px; /* 제목과 .moved-text 사이의 간격을 조절합니다. */
+        }        
+        
 </style>
 </head>
 <body>
@@ -52,7 +75,12 @@ h1 {
 <p>기업</p>
 <p>삼성그룹, 현대자동차그룹, 한진그룹, SBS, TBC, KBC, UBC, TJB, JTV, 일진그룹 등등</p>
 
-</div>     
+    <div class="no-text">
+        <h5>Spring 2024</h5>
+    </div>   
+    <div class="x-text">     
+        <h6>Edition</h6>
+    </div>     
 
 
 
