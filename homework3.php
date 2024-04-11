@@ -1,5 +1,23 @@
 <p>문제 1</p>
+<!DOCTYPE html>
+<html>
+<body>
 
+<?php
+function sum($num) {
+    $sum = 0;
+    for ($i = 1; $i <= $num; $i++) {
+        $sum += $i;
+    }
+    return $sum;
+}
+echo sum(30);
+// 5050
+
+?> 
+
+</body>
+</html>
 
 
 
