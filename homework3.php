@@ -1,21 +1,32 @@
 <p>문제 1</p>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>1부터 30까지의 합과 곱</title>
+</head>
+<h1>1부터 30까지의 합과 곱<h1>
 <body>
+   
+    </form>
+    <?php
+      $n = 30;
+      $sum = 0;
+      $prod = 1;
+      
+      echo "Numbers: ";
+      for ($i = 1; $i <= $n; $i++) {
+          echo $i . " ";
+          $sum += $i;
+          $prod *= $i;
+      }
+      
+      echo "<br>";
+      echo "합: " . $sum . "<br>";
+      echo "곱: " . number_format($prod);
+    ?>
 
-<?php
-function sum($num) {
-    $sum = 0;
-    for ($i = 1; $i <= $num; $i++) {
-        $sum += $i;
-    }
-    return $sum;
-}
-echo sum(30);
-// 5050
 
-?> 
-
+ 
 </body>
 </html>
 
