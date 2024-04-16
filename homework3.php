@@ -36,32 +36,31 @@
 <!DOCTYPE html>
 <html>
 <body>
+<h1>10이상 100이하의 정수 숫자 n 을 입력받아 n개의 정수 랜덤넘버를 생성하고 
+생성된 결과와 올림차순으로 소팅한 결과를 출력하세요.
+<body>
 
 <?php
+$n = 30;
+    $numbers = array();
+    
+    for ($i = 0; $i < $n; $i++) {
+        $numbers[] = rand(10, 100);
+    }
+    
+    echo "생성된 숫자: ";
+    foreach ($numbers as $number) {
+        echo $number . " ";
+    }
+    
+   
+    sort($numbers);
+    
+    echo "<br>오름차순으로 정렬된 숫자: ";
+    foreach ($numbers as $number) {
+        echo $number . " ";
+    }
 
-
-$n = (int)readline("10 이상 100 이하의 정수를 입력하세요: ");
-
-
-if ($n < 10 || $n > 100) {
-    echo "잘못된 입력입니다. 10 이상 100 이하의 정수를 입력하세요.";
-    exit();
-}
-
-
-$data = [];
-for ($i = 0; $i < $n; $i++) {
-    $data[$i] = rand(10, 100); // 10 이상 100 이하의 랜덤 정수 생성
-}
-
-// 생성된 데이터 출력
-echo "생성된 결과: " . implode(', ', $data) . "\n";
-
-// 데이터 정렬
-sort($data);
-
-// 정렬된 데이터 출력
-echo "정렬된 결과: " . implode(', ', $data) . "\n";
 
 
 ?> 
