@@ -71,54 +71,32 @@ $n = 30;
 <p>문제 3</p>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>피보나치 수</title>
+</head>
 <body>
-
-<?php
-
-function fibonacci($n) {
-    $fib = [1, 1]; // 초기값 설정
+    <h1>피보나치 수
+</h1>
     
-    if ($n < 1) {
-        return [];
-    } elseif ($n == 1) {
-        return [1];
-    } elseif ($n == 2) {
-        return $fib;
+    
+    </form>
+    <?php
+    $a = 1;
+    $b = 1;
+    $num = 20;
+    
+    for($i = 0; $i < $num; $i++)
+    {
+    $c = $b +$a;
+    echo $a." ";
+    $a = $b;
+    $b = $c;
     }
+    ?>
     
-    // 피보나치 수열 계산
-    for ($i = 2; $i < $n; $i++) {
-        $fib[$i] = $fib[$i - 1] + $fib[$i - 2];
-    }
-    
-    return $fib;
-}
-
-// 사용자로부터 입력 받기
-$n = (int)readline("정수를 입력하세요 (100 이하): ");
-
-if ($n > 100 || $n < 1) {
-    echo "잘못된 입력입니다. 1부터 100 사이의 정수를 입력하세요.";
-    exit();
-}
-
-$fibonacci_sequence = fibonacci($n);
-
-// 피보나치 수열 출력
-echo "i\tfi\tfi+1\tfi+1/fi\n";
-for ($i = 0; $i < $n - 1; $i++) { // 수정된 부분: 마지막 항은 출력하지 않음
-    $fi = $fibonacci_sequence[$i];
-    $fi_1 = $fibonacci_sequence[$i + 1];
-    $fi_1_over_fi = number_format($fi_1 / $fi, 6);
-    
-    echo ($i + 1) . "\t$fi\t$fi_1\t$fi_1_over_fi\n";
-}
-
-?>
-
+   
 </body>
 </html>
-
 
 <p>문제 4</p>
 <!DOCTYPE html>
